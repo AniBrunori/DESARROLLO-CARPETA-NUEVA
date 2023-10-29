@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+#contenedor {
+    background-color: #0A2C4E;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contenedor2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "introH1" "image1"
+        "introP" "image1";
+}
+
+#introH1 {
+    grid-area: introH1;
+}
+
+#introP {
+    grid-area: introP;
+}
+
+#image1 {
+    grid-area: image1;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    color: white
+}
+
+main p {
+    color: white
+}
+
+.intro {
+    background-color: #4788F4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+#contenedor3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer {
+    background-color: #0A2C4E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorContacto {
+    background-color: #0A2C4E;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.imagenContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footerContacto {
+    background-color: #0A2C4E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
